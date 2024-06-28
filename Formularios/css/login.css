@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu & display=swap');
+
+*{
+    font-family:'Ubuntu',sans-serif;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    width: 450px;
+}
+/*boton de google*/
+.botones{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.google-btn{
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.google-btn:hover{
+    opacity: 0.75;
+}
+.google-btn picture img{
+    width: 75%;
+}
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+/*boton de twitter*/
+.twitter-btn{
+    border: none;
+    cursor: pointer;
+}
+.twitter-btn picture img{
+    width: 75%;
+}
+.twitter-btn picture{
+    width: 40px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter-btn:hover{
+    opacity: 0.4;
+}
+/*separador*/
+.separador{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1pc solid white;
+}
+.separador span{
+    color: #8b8b8b;
+}
+/*inputs y label del formulario*/
+.seccion{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 35px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span{
+    font-weight: 700;
+}
+.seccion label input{
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+label input{
+    width: 100%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s;
+}
+label input:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb58ff4f;
+}
+label input:focus{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb58ff4f;
+}
+/*checkbox del formulario*/
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type=checkbox]{
+    width: 20px;
+}
+.checkbox-label span{
+    font-weight: 400;
+}
+/*boton de crear*/
+.subtmit-btn{
+    background-color: #ea4c89;
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.subtmit-btn:hover{
+    opacity: 0.75;
+}

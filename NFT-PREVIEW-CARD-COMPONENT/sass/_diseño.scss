@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    .card{
+    border: 1px solid red;
+    margin: 50px;
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: #000;
+    .imag img{
+        margin: 20px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .descrip{
+        margin: 0px 20px 0px 20px;
+        color: #fff;
+        p{
+            margin:10px 0px 0px 0px; 
+            color: #808080;
+        }
+    }
+    .info{
+        display: flex;
+        align-items: baseline;
+        .eth{
+            margin: 10px 20px 20px 20px ;
+            color: aqua;
+        }
+        .fec{
+            margin: 10px 0px 20px 50px;
+            color: #808080;
+        }
+    }
+    .separa{
+        display: flex;
+        justify-content: center;
+        color: #808080;
+    }
+    }
+}

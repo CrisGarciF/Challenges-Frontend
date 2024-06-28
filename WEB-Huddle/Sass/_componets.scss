@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: [Open Sans];
+    font-weight: 400;
+    background-image: url("../Asses/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 1300px 620px;
+    background-color: #6200B3;
+}
+.titulo{
+    color: #ffff;
+    padding: 30px;
+    height: 10%;
+    width: 100%;
+}
+.container{
+    padding: 30px 10px 30px 20px;
+    margin: 0px 0px 20px 25px;
+    display: flex;
+    #imagen{
+        height: 400px;
+        width: 700px;
+    }
+    #descrip{
+        color: #ffff;
+        margin: 40px 0px 0px 40px;
+        height: 307px;
+        width: 750px;
+        #btn{
+            color: #6200B3;
+            background-color: #ffff;
+            border-radius: 25px;
+            border: none;
+            height: 49px;
+            width: 168px;
+        }
+    }
+}
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 40px;
+    .bt{
+        color: #6200B3;
+        background-color: #ffff;
+        margin: 5px;
+        border: none;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 3 Canvas</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+    <script>
+        let pantalla = document.querySelector("canvas"),
+        pincel = pantalla.getContext("2d");
+
+        pincel.fillStyle = "grey";
+        pincel.fillRect(0,0,600,400);
+        let colores = ["blue","red","green"];
+        let indexColores = 0;
+
+        function exbirAlerta(e){
+            let x = e.pageX - pantalla.offsetLeft;
+            let y = e.pageY - pantalla.offsetTop;
+            console.log(e);
+            alert(x + "," + y);
+        }
+        
+        function dibujarCirculo(e){
+            let x = e.pageX - pantalla.offsetLeft;
+            let y = e.pageY - pantalla.offsetTop;
+    
+            pincel.fillStyle = colores[indexColores];
+            pincel.beginPath();
+            pincel.arc(x,y,10,0,2*3.14);
+            pincel.fill();
+        }
+
+        //pantalla.onclick = exbirAlerta;
+
+        pantalla.onclick = dibujarCirculo;
+
+        function alterarColor() {
+            indexColores++;
+            if(indexColores>= colores.length) {
+                indexColores = 0;
+            }
+            return false; 
+        }
+
+        pantalla.oncontextmenu = alterarColor;
+    </script>
+</body>
+</html>

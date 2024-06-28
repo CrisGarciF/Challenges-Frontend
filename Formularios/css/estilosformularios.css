@@ -1,0 +1,49 @@
+.input{
+    width: 20%;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/*una forma para haceder a selectores*/
+.input[type="password"]{
+    background-color: black;
+    color: white;
+}
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid #dddbdb;
+    outline: none;/*sirve para quitar las lineas negras feas de los input*/
+    padding: 5px;
+    color: #5f5f5f;
+}
+/*placeholder se utilisa para tener un texto en los input*/
+.input-moderno::placeholder{
+    color: green;
+}
+/*el focus sirve para cuando estes en el input canbie de forma */
+.input-moderno:focus{
+    border-bottom: 1px solid #000;
+}
+.input-bac{
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    color: #000;
+    box-shadow: 0 0 10px #000;
+}
+.input-bac::placeholder{
+    color: #5f5f5f;
+}
+.input-bus{
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    background-image:url(../img/find_search_card_user_16713.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}

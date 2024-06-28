@@ -1,0 +1,127 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 700px;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    margin-bottom: 10rem;
+    border-radius: 15px;
+}
+
+
+/*imagen*/
+
+.img{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.img-omell{
+    margin-top: 2rem;
+    width: 600px;
+    border-radius: 15px;
+}
+
+/*informacion*/
+
+.titule-info{
+    padding-left: 3rem;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+.text-info{
+    padding-left: 3rem;
+    font-size: 15px;
+}
+
+/*pre time*/
+
+.pre-time{
+    display: flex;
+    flex-direction: column;
+    padding-right: 16rem;
+}
+
+.pre-title{
+    color:  #7b284f;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+/*titulos*/
+
+h3{
+    color: #854632;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/*ingredientes*/
+
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10rem;
+}
+
+.ul-ingre{
+    padding: 0;
+    padding-left: 1rem;
+    font-size: 16px;
+}
+
+/*intrucciones*/
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.5rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.ol-intruccion{
+    font-size: 16px;
+    padding: 25;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+/*nuticion*/
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+}
+
+table{
+    padding-left: 2rem;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid #6b6969;
+}
+
+.td-two{
+    color: #854632;
+    font-weight: bold;
+}

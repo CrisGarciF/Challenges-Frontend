@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de Masa Corporal</title>
+</head>
+<body>
+    <h1>Calcular IMC</h1>
+    <script>
+        function saltoLinea(){
+            document.write("<br>");
+        }
+
+        function imprimir(frase){
+            document.write(frase);
+            saltoLinea();
+        }
+
+        function calcularIMC(peso,altura,nombre){
+            imc= peso / (altura * altura);
+            imprimir("El indice de masa corporal de "+nombre+" es: "+ Math.round(imc));
+        }
+
+        calcularIMC(61, 1.65, "Cristian");
+        if(imc < 18){
+            imprimir("Abajo de lo recomendado");
+        }else if (imc > 19 && imc <= 25){
+            imprimir("Normal");
+        }else if(imc >=30){
+            imprimir("Sobre peso")
+        }
+    </script>
+</body>
+</html>

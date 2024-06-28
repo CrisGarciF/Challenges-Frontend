@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .card {
+  margin: 5%;
+  width: 400px;
+  height: 550px;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 10px black;
+}
+.container .cab img {
+  width: 400px;
+  height: 190px;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+.container .content {
+  padding: 15px;
+  text-align: center;
+  margin: 10px 50px 10px 50px;
+}
+.container .content .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 46, 105, 0.9529411765);
+}
+.container .content .text {
+  color: rgba(128, 128, 128, 0.8666666667);
+}
+.container .medio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .medio .title {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 46, 105, 0.9529411765);
+}
+.container .medio .text {
+  color: rgba(128, 128, 128, 0.8666666667);
+}
+.container .btns {
+  display: flex;
+  flex-direction: column;
+}
+.container .btns .bt {
+  margin: 20px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  background-color: #55258b;
+  border-radius: 5px;
+}
+.container .btns .bt:hover {
+  background-color: #fff;
+  color: #55258b;
+}
+.container .btns .btn {
+  margin: 0 20px 20px 20px;
+  height: 40px;
+  border: none;
+  color: rgba(0, 46, 105, 0.9529411765);
+  background-color: #fff;
+  border-radius: 5px;
+}
+.container .btns .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

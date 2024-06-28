@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .card {
+  border: 1px solid red;
+  margin: 50px;
+  width: 300px;
+  height: 550px;
+  border-radius: 15px;
+  background-color: #000;
+}
+.container .card .imag img {
+  margin: 20px;
+  height: 250px;
+  border-radius: 5px;
+}
+.container .card .descrip {
+  margin: 0px 20px 0px 20px;
+  color: #fff;
+}
+.container .card .descrip p {
+  margin: 10px 0px 0px 0px;
+  color: #808080;
+}
+.container .card .info {
+  display: flex;
+  align-items: baseline;
+}
+.container .card .info .eth {
+  margin: 10px 20px 20px 20px;
+  color: aqua;
+}
+.container .card .info .fec {
+  margin: 10px 0px 20px 50px;
+  color: #808080;
+}
+.container .card .separa {
+  display: flex;
+  justify-content: center;
+  color: #808080;
+}
+
+/*# sourceMappingURL=styles.css.map */

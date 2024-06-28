@@ -1,0 +1,56 @@
+body{
+    background: #f4f75b;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #000;
+    margin-top: 5rem;
+    margin-left: 35rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}
+
+.img-cls, img{
+    margin-left: .7rem;
+    height: 200px;
+    width: 250px;
+    padding: 0;
+}
+
+.Learning{
+    color: #000;
+    background-color: #f4f75b;
+    width: 25%;
+    margin: 0;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.Published{
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.title{
+    margin: 0;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.details{
+    font-size: 15px;
+    margin-left: 15px;
+    color: #c4c4c4;
+}
+
+.info-avatar{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}

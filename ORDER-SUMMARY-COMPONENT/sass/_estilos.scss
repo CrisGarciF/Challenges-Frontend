@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    .card{
+        margin: 5%;
+        width: 400px;
+        height: 550px;
+        border-radius: 1.5rem;
+        box-shadow: 0px 0px 10px black;
+    }
+    .cab img{
+        width: 400px;
+        height: 190px;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+    .content{
+        padding: 15px;
+        text-align: center;
+        margin: 10px 50px 10px 50px;
+        .title{
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            color: #002e69f3;
+        }
+        .text{
+            color: #808080dd;
+        }
+    }
+    .medio{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .title{
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+            color: #002e69f3;
+        }
+        .text{
+            color: #808080dd;
+        }
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        .bt{
+            margin: 20px;
+            height: 40px;
+            border: none;
+            color: #fff;
+            background-color: #55258b;
+            border-radius: 5px;
+        }
+        .bt:hover{
+            background-color: #fff;
+            color: #55258b;
+        }
+        .btn{
+            margin: 0 20px 20px 20px;
+            height: 40px;
+            border: none;
+            color: #002e69f3;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
