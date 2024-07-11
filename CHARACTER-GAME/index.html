@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Character Game</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>What is your "favorite" Character?</h1>
+        <ul class="character-list">
+            <li>
+                <button class="choose-character-btn">
+                    <p>Bone</p>
+                    <img src="/img/bone.png" alt="bone">
+                </button>
+            </li>
+            <li>
+                <button class="choose-character-btn">
+                    <p>Drack</p>
+                    <img src="/img/drack.png" alt="drack" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-character-btn">
+                    <p>Warrior</p>
+                    <img src="/img/guarrior.png" alt="Warrior" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-character-btn">
+                    <p>Zombie</p>
+                    <img src="/img/zombi.png" alt="zombie" />
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet? <br>
+            You are playing an impossible game!!
+        </h5>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
