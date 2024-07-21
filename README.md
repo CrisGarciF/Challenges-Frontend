@@ -76,4 +76,4 @@
 
 -FRUTA&FRUTO
 
--Background Slider
+-BACKGROUND SLIDER
